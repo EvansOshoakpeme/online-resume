@@ -1,0 +1,169 @@
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin: 0%;
+  background: rgb(255, 255, 255);
+}
+
+.page-layout{
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar{
+  width:20%;
+  padding-top: 20px;
+  background: black;
+}
+
+#sidebar img{
+  margin-left: 25%;
+  margin-bottom: 2px;
+}
+
+#sidebar hr{
+  color: white;
+  width: 100%;
+}
+
+.sidebar-content-heading{
+  margin-left: 13px;
+  font-weight: bold;
+  font-size: 14pt;
+  margin-top: 24px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+#sidebar h2{
+  margin: 20px 0px 15px 15px;
+}
+
+.sidebar-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar-div a{
+  background-color: white;
+  font-size: 8pt;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#sidebar-social-link{
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+#sidebar-social-link a{
+  background-color: rgb(255, 246, 194);
+  font-size: 8pt;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 3px 4px 3px 4px;
+
+
+}
+
+#sidebar-social-link img{
+  height: 15px;
+  margin: 5px;
+  border-radius: 100%;
+}
+
+#header{
+  width:80%;
+  padding-left: 15px;
+  margin: 0;
+  margin-right: 15px;
+}
+
+#header h1{
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+#header a{
+  font-size: smaller;
+}
+
+.img-profile{
+  height: 100px;
+  border-radius: 100%;
+}
+
+.header-name{
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-contact{
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.content-heading{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0%;
+}
+
+.main-text{
+  font-size: 11pt;
+  text-align: justify;
+}
+
+.content-sub-heading{
+  font-size: small; 
+  font-weight: bold; 
+  color:grey; 
+  margin-top: 3px; 
+  margin-bottom: 1px;
+}
+
+.date{
+  font-weight: medium;
+  font-size: 9pt;
+  margin: 0;
+}
+
+ol{
+  font-size: small;
+}
+
+ol p{
+  font-size: small;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+footer{
+  height: 40px;
+  text-align: center;
+  font-size: 8pt;
+  font-weight: bold;
+  color: grey;
+}
+
+footer p{
+  margin-top: 25px;
+}
+
+.spacing-box{
+  height: 350px;
+}
